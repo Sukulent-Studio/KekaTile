@@ -1,0 +1,13 @@
+include "misk.kdl"
+
+include "autostart.kdl"
+
+include "input.kdl"
+
+include "gestures.kdl"
+
+include "layouts.kdl"
+
+include "windowrules.kdl"
+
+include "binds.kdl"

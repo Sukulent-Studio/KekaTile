@@ -1,5 +1,8 @@
 /.codex
 
+# node
+/node_modules
+
 # User folders
 /wallpapers
 /lockpapers

@@ -1,0 +1,63 @@
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "parser": "markdown",
+        "proseWrap": "always"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "parser": "scss",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.sh",
+      "options": {
+        "parser": "sh"
+      }
+    },
+    {
+      "files": "*.toml",
+      "options": {
+        "parser": "toml"
+      }
+    },
+    {
+      "files": "*.yaml",
+      "options": {
+        "parser": "yaml"
+      }
+    }
+  ],
+  "plugins": [
+    "prettier-plugin-sh",
+    "prettier-plugin-toml",
+    "prettier-plugin-yaml"
+  ]
+}

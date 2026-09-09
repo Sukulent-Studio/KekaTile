@@ -8,6 +8,8 @@ include "gestures.kdl"
 
 include "layouts.kdl"
 
+include "layerrules.kdl"
+
 include "windowrules.kdl"
 
 include "binds.kdl"

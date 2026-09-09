@@ -1,2 +1,4 @@
 spawn-at-startup "waybar"
 spawn-at-startup "swayosd-server"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+spawn-at-startup "awww-daemon"

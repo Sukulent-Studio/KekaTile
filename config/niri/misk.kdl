@@ -1,8 +1,19 @@
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+screenshot-path "~/Pictures/Screenshots/Screenshot_from_%Y-%m-%d_%H-%M-%S.png"
 
 hotkey-overlay {
-    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
     skip-at-startup
+}
+
+clipboard {
+    disable-primary
+}
+
+overview {
+    zoom 0.4
+
+    workspace-shadow {
+        off
+    }
 }
 
 prefer-no-csd // top-bar of terminal

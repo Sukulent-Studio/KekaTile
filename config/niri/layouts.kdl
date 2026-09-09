@@ -5,7 +5,7 @@ layout {
     empty-workspace-above-first
     default-column-display "normal"
 
-    background-color "#490c48"
+    background-color "transparent"
 
     preset-column-widths {
         proportion 0.33333

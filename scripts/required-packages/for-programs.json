@@ -1,0 +1,8 @@
+{
+  "pacman": {
+    "quickshell": "latest",
+    "qt6-declarative": "latest",
+    "jq": "latest",
+    "dex": "latest"
+  }
+}
